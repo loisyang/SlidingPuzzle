@@ -1,9 +1,9 @@
 /* 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Title : Project 1 Sliding Block Puzzle
-Author : 
-Created : 
-Modified : 
+Author : Lois Yang  
+Created : 09/26
+Modified : 09/26
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 */
 
