@@ -101,15 +101,16 @@ header{
 /* Main Game Area*/
 section{
   position: static;
-  padding: 2% 0 2% 0;
+  padding: 12% 0 2% 0;
   margin: 0;
   min-height: 800px;
   background-color: rgb(200,200,200);
   color: rgb(100,100,100);
 }
 
-div .row{
-  margin: 2% 10%;
+.row{
+  margin: 2% 15%;
+  padding: 2%;
   background-color:white;
 }
 
