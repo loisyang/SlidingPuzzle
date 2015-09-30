@@ -99,6 +99,7 @@ header{
   position:fixed;
   text-align: center;
   box-shadow: 5px 5px 3px #afafaf;
+  z-index: 100;
 }
 
 /* Main Game Area*/
@@ -121,9 +122,24 @@ section{
   border: solid #39CAB7 2px;
 }
 
+
 .column{
   display: inline-block;
   width: 45%;
+}
+
+.tile{
+  display: inline-block;
+  border-style: solid;
+  border-width: 3px
+  border-color: black;
+  position: absolute;
+}
+
+div#gameBody {
+  position:relative;
+  border:0;
+  margin:0 auto;
 }
 
 .align-right{
@@ -151,7 +167,7 @@ button{
 button:hover{
   color: #57766C;
   border: 2px solid #57766C;
-  background: rgba(0,0,0,0.1);
+  background: rgba(255,255,255,0.5);
 }
 
 

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Project 1: Sliding 15 Puzzle</title>
+        <title>Project 1: Sliding Puzzle</title>
         <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|Lato:400,700,400italic,300' rel='stylesheet' type='text/css'>
+        <script src="jquery-1.11.3.min.js"></script>
         <script src="p1.js"></script>  
         <link href='p1.css' rel='stylesheet' type='text/css'>       
     </head>
@@ -14,7 +15,7 @@
         <section>
           <!-- the title of the game -->
           <div class="row text-center green">
-            <h1 class="sans-serif light white">Sliding 15 Puzzle</h1>
+            <h2 class="sans-serif light white">Sliding 15 Puzzle</h2>
           </div>
           <!--  buttons and score board -->
           <div class="row">
@@ -22,11 +23,14 @@
               <button id="restart">Restart</button>
             </div>
             <div class="column align-right">
-              <h3 class="sans-serif">Score:<span id="score"></span> </h3>
+              <h3 class="sans-serif">Steps: <span id="steps"></span> </h3>
             </div>
           </div>
           <!-- the main game body -->
-          <div class="row">
+          <div class="row" id="gameBody">
+          </div>
+          <div class="row text-center green">
+            <h3 class="sans-serif light white"> Sliding Puzzle is simple. Choose a picture (8-puzzle, 15-puzzle or one of the pictures) from the dropdown above and start the mixing of the puzzle pieces with the "Restart Puzzle"-Button. If the puzzle modul has finished the shuffling of the pieces, you can start with the solving of the puzzle. To rearrange the pieces, just click on a tile to slide it to the empty place. You can restart the slide puzzle at any time. Have fun!</h3>
           </div>
         </section>
         <footer>
