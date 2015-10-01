@@ -21,7 +21,10 @@ var IMAGE_WIDTH =  IMAGES[randomImageNum][1];
 var IMAGE_HEIGHT = IMAGES[randomImageNum][2];
 // Change these if you use your own image.
 
-var randomRow = Math.ceil(Math.random()*4);
+
+var maxRow = 5;
+var minRow = 3;
+var randomRow = Math.ceil(Math.random()*(maxRow - minRow)) + minRow;
 var NUM_ROWS = randomRow;
 var NUM_COLS = randomRow;
 
